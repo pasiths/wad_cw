@@ -1,16 +1,62 @@
 header.masthead {
-    position: relative;
-    background-color: #343a40;
-    background: url("../assets/img/masthead-img.jpg") no-repeat center center;
-    background-size: cover;
-    padding-top: 8rem;
-    padding-bottom: 8rem;
-  }
+  position: relative;
+  background-color: #343a40;
+  background: url("../assets/img/masthead-img.jpg") no-repeat center center;
+  background-size: cover;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
 
-  header.masthead .btn{
-    opacity: .8;
+header.masthead .btn {
+  opacity: 0.8;
+}
+header.masthead .btn:hover {
+  opacity: 1;
+  background: rgba(0, 102, 255, 0.9);
+}
+header.masthead:before {
+  content: "";
+  position: absolute;
+  background-color: #1c375e;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.4;
+}
+header.masthead h1,
+header.masthead .h1 {
+  font-size: 2rem;
+}
+@media (min-width: 768px) {
+  header.masthead {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
   }
-  header.masthead .btn:hover{
-    opacity: 1;
-    background: rgba(0, 102, 255, 0.9);
+  header.masthead h1,
+  header.masthead .h1 {
+    font-size: 3rem;
   }
+}
+
+.visit-section {
+  padding: 5rem 0;
+}
+.visit-section .featured-text {
+  padding: 2rem;
+}
+@media (min-width: 992px) {
+  .visit-section .featured-text {
+    padding: 0 0 0 2rem;
+    border-left: 0.5rem solid #64a19d;
+  }
+}
+.visit-section .project-text {
+  padding: 3rem;
+  font-size: 90%;
+}
+@media (min-width: 992px) {
+  .visit-section .project-text {
+    padding: 5rem;
+  }
+}
