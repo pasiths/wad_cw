@@ -1,0 +1,16 @@
+header.masthead {
+    position: relative;
+    background-color: #343a40;
+    background: url("../assets/img/masthead-img.jpg") no-repeat center center;
+    background-size: cover;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+
+  header.masthead .btn{
+    opacity: .8;
+  }
+  header.masthead .btn:hover{
+    opacity: 1;
+    background: rgba(0, 102, 255, 0.9);
+  }
