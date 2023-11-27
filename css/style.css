@@ -1,3 +1,22 @@
+.section-title p {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #151515;
+}
+.section-title h2 {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0;
+  line-height: 1px;
+  margin: 0 0 5px 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #aaaaaa;
+  font-family: "Poppins", sans-serif;
+}
 header.masthead {
   position: relative;
   background-color: #343a40;
@@ -61,12 +80,9 @@ header.masthead .h1 {
   }
 }
 
-/*--------------------------------------------------------------
-# activities
---------------------------------------------------------------*/
 .activities {
   background: #fff;
-  padding: 60px 0;
+  padding: 80px 0;
 }
 
 .activities .activity {
@@ -111,22 +127,36 @@ header.masthead .h1 {
   opacity: 1;
   bottom: 15px;
 }
-.section-title p {
-  margin: 0;
-  font-size: 36px;
-  font-weight: 700;
-  text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
-  color: #151515;
+
+@media (min-width: 992px) {
+  .section-title > p {
+    font-size: 2rem;
+  }
 }
-.section-title h2 {
+
+.counts {
+  padding: 60px 0;
+}
+
+.counts .count-box {
+  width: 100%;
+  text-align: center;
+}
+
+.counts .count-box span {
+  font-size: 48px;
+  line-height: 48px;
+  display: block;
+  font-weight: 700;
+  color: #151515;
+  margin-left: 80px;
+  margin: auto;
+}
+
+.counts .count-box p {
+  padding: 8px 0 0 0;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
   font-size: 14px;
-  font-weight: 500;
-  padding: 0;
-  line-height: 1px;
-  margin: 0 0 5px 0;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  color: #aaaaaa;
-  font-family: "Poppins", sans-serif;
+  color: #151515;
 }
