@@ -182,10 +182,10 @@ header.masthead .h1 {
   font-family: "Raleway", sans-serif;
   font-weight: 600;
   font-size: 14px;
-  color: #151515;
+  color: #aaaaaa;
 }
 
-.contact{
+.contact {
   padding: 5rem 0;
 }
 .contact .info {
@@ -195,7 +195,7 @@ header.masthead .h1 {
 
 .contact .info i {
   font-size: 20px;
-  color: #2487ce;
+  color: #aaaaaa;
   float: left;
   width: 44px;
   height: 44px;
@@ -212,14 +212,14 @@ header.masthead .h1 {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #124265;
+  color: #000000;
 }
 
 .contact .info p {
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
-  color: #217bbc;
+  color: #aaaaaa;
 }
 
 .contact .info .email,
@@ -230,7 +230,7 @@ header.masthead .h1 {
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #2487ce;
+  background: #aaaaaa;
   color: #fff;
 }
 
@@ -252,7 +252,7 @@ header.masthead .h1 {
   font-weight: 600;
 }
 
-.contact .php-email-form .error-message br+br {
+.contact .php-email-form .error-message br + br {
   margin-top: 25px;
 }
 
@@ -294,7 +294,7 @@ header.masthead .h1 {
 
 .contact .php-email-form input:focus,
 .contact .php-email-form textarea:focus {
-  border-color: #2487ce;
+  border-color: #000000;
 }
 
 .contact .php-email-form input {
@@ -304,17 +304,3 @@ header.masthead .h1 {
 .contact .php-email-form textarea {
   padding: 10px 12px;
 }
-
-.contact .php-email-form button[type=submit] {
-  background: #2487ce;
-  border: 0;
-  padding: 10px 30px;
-  color: #fff;
-  transition: 0.4s;
-  border-radius: 4px;
-}
-
-.contact .php-email-form button[type=submit]:hover {
-  background: #3194db;
-}
-
