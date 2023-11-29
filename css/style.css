@@ -1,3 +1,7 @@
+:root {
+  scroll-behavior: smooth;
+}
+
 .section-title p {
   margin: 0;
   font-size: 1.5rem;
@@ -327,4 +331,38 @@ header.masthead .h1 {
 
 .footer .credits a {
   color: #c5c5c59a;
+}
+
+/*--------------------------------------------------------------
+# Scroll top button
+--------------------------------------------------------------*/
+.scroll-top {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: -15px;
+  z-index: 99999;
+  background: #3f3f3f;
+  width: 44px;
+  height: 44px;
+  border-radius: 50px;
+  transition: all 0.4s;
+}
+
+.scroll-top i {
+  font-size: 24px;
+  color: #ffffff;
+  line-height: 0;
+}
+
+.scroll-top:hover {
+  background: #000000;
+  color: #ffffff;
+}
+
+.scroll-top.active {
+  visibility: visible;
+  opacity: 1;
+  bottom: 15px;
 }
