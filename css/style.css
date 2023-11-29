@@ -333,9 +333,6 @@ header.masthead .h1 {
   color: #c5c5c59a;
 }
 
-/*--------------------------------------------------------------
-# Scroll top button
---------------------------------------------------------------*/
 .scroll-top {
   position: fixed;
   visibility: hidden;
@@ -365,4 +362,24 @@ header.masthead .h1 {
   visibility: visible;
   opacity: 1;
   bottom: 15px;
+}
+
+.history{
+  padding: 5rem 0;
+}
+.history h4{
+  color: #fff;
+}
+
+.history img{
+  width: 672px;
+  height: 443px;
+}
+
+@media (min-width: 992px) {
+  .history img{
+    width: 864px;
+    height: 570px;
+  }
+  
 }
